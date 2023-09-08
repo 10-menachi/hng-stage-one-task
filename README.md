@@ -1,6 +1,8 @@
 # Chris Droid
 
-![Chris Droid](propic.jpg)
+<p align="center">
+  <img src="propic.jpg" alt="Chris Droid" data-testid="slackDisplayImage">
+</p>
 
 Chris Droid is a personal webpage project that provides information about me, a HNGX participant named Christian Wamalwa. It displays my details, which are my name, profile picture and my designated track (in this case, "Frontend"), and other details such as the current day of the week, date, and time. Additionally, it offers a link to the GitHub repository for the project.
 
