@@ -61,8 +61,8 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #fff;
+    background-color: #EADBC8;
     padding: 1rem;
     border-radius: 0 0 0.5rem 0.5rem;
-    border-bottom: 1px solid #000;
+    border-bottom: 4px solid #213555;
 }

@@ -15,5 +15,5 @@ setInterval(() => {
   const hours = formatTime(today.getHours());
   const minutes = formatTime(today.getMinutes());
   const seconds = formatTime(today.getSeconds());
-  current_time_div.innerHTML = `${hours}:${minutes}:${seconds}.`;
+  current_time_div.innerHTML = `${hours}:${minutes}:${seconds}`;
 }, 1000);
