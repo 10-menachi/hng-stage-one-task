@@ -17,7 +17,7 @@ Chris Droid is a personal webpage project that provides information about me, a 
 
 ## Demo
 
-You can see the live demo of the Chris Droid project [here](<insert-live-demo-link>).
+You can see the live demo of the Chris Droid project [here](https://10-menachi.github.io/hng-stage-one-task/).
 
 ## Technologies Used
 
@@ -52,4 +52,4 @@ Once you have the project running locally, you will see the following informatio
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-- View the live demo [here](<insert-live-demo-link>).
+- View the live demo [here](https://10-menachi.github.io/hng-stage-one-task/).
