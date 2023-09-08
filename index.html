@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chris droid</title>
+</head>
+<body>
+    <h2 class="slack-name" data-testid="slackUserName">chris-droid</h2>
+    <img src="propic.jpg" alt="chris-droid" data-testid="slackDisplayImage">
+    <div class="day-of-the-week" data-testid="currentDayOfTheWeek"></div>
+    <div class="current-time" data-testid="currentUTCTime"></div>
+    <h2 class="track" data-testid="myTrack">Frontend</h2>
+    <a href="https://github.com/10-menachi" class="github-url" data-testid=“githubURL”>Check out the code here</a>
+
+    <script>
+        const current_time_div = document.querySelector('.current-time');
+        const current_day_div = document.querySelector('.day-of-the-week');
+        const today = new Date();
+        const day = today.getDay();
+        const daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+        current_day_div.innerHTML = `Today is ${daylist[day]}.`;
+
+        const current_time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        setInterval(() => {
+            const today = new Date();
+            const current_time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            current_time_div.innerHTML = `Current time is ${current_time}.`;
+        }, 1000);
+    </script>
+</body>
+</html>
